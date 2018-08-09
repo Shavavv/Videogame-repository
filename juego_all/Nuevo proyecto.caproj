@@ -1,0 +1,900 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Nuevo proyecto</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>3e0g8jl4t0rt4</unique-id>
+    <saved-with-version>17800</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-folder expanded="1" name="HUD">
+            <object-type name="Gem" sid="5597931917062636">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="8171989123720362" speed="5">
+                        <frame duration="1" hotspotX="0.502857" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\0bjetos4\Bonus\Bonus_4_3.png">
+                            <collision-poly>
+                                <point x="0.175141" y="0.182353" />
+                                <point x="0.497175" y="0.0705882" />
+                                <point x="0.937853" y="0.0647059" />
+                                <point x="0.903955" y="0.5" />
+                                <point x="0.762712" y="0.752941" />
+                                <point x="0.497175" y="0.970588" />
+                                <point x="0.19209" y="0.8" />
+                                <point x="0.0112994" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Key" sid="3767560482185144">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="4309067595341405" speed="5">
+                        <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Abstract Platformer\PNG\Items\keyGreen.png">
+                            <collision-poly>
+                                <point x="0.310345" y="0.3" />
+                                <point x="0.482759" y="0.0333333" />
+                                <point x="0.896552" y="0.1" />
+                                <point x="0.965517" y="0.5" />
+                                <point x="0.689655" y="0.7" />
+                                <point x="0.482759" y="0.7" />
+                                <point x="0.0344828" y="0.966667" />
+                                <point x="0.310345" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="KeyHUD" sid="3301365534615189">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="4" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="9168806427671225" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0.509434" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Abstract Platformer\PNG\extra\key0.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0.509434" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Abstract Platformer\PNG\extra\key1.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0.509434" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Abstract Platformer\PNG\extra\key2.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0.511111" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Abstract Platformer\PNG\extra\key3.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="TiledBackground" sid="8606584709694256">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\_PNG\2\background.png" />
+        </object-type>
+        <object-type name="Sprite" sid="7582008083707664">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="2184275084178501">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="3369485552579144" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\WorldWarMech_Lava_Station\PNG_Exports_1x_2x_3x\crate.png">
+                        <collision-poly>
+                            <point x="0.0212766" y="0.0294118" />
+                            <point x="0.978723" y="0.0294118" />
+                            <point x="0.93617" y="0.5" />
+                            <point x="0.93617" y="0.911765" />
+                            <point x="0.489362" y="0.970588" />
+                            <point x="0.0425532" y="0.941176" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Destroyer" sid="347251910948248">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Key" sid="9052689370368598" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="7494925203986572">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="9597184922332048">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="4153465018623041">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="8" loop="1" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="1939068957450904" speed="5">
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_idle0001.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_idle0002.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_idle0003.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_idle0004.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_idle0005.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_idle0006.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_idle0007.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_idle0008.png" />
+                </animation>
+                <animation framecount="14" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="4563994479218656" speed="15">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0001.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0002.png" />
+                    <frame duration="1" hotspotX="0.504065" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0005.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0006.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0007.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0009.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0010.png" />
+                    <frame duration="1" hotspotX="0.504065" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0011.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0012.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0013.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_walk0014.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="9807058250885372" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_jump0001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_jump0002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_jump0003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_jump0004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_jump0005.png" />
+                </animation>
+                <animation framecount="4" loop="0" name="Fall" pingpong="0" repeatcount="1" repeatto="0" sid="170736438956383" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_jump0001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_jump0002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_jump0003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_jump0004.png" />
+                </animation>
+                <animation framecount="10" loop="0" name="Dead" pingpong="0" repeatcount="1" repeatto="0" sid="7232999652893766" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_defeated0001.png" />
+                    <frame duration="1" hotspotX="0.504505" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_defeated0002.png" />
+                    <frame duration="1" hotspotX="0.504673" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_defeated0003.png" />
+                    <frame duration="1" hotspotX="0.504762" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_defeated0004.png" />
+                    <frame duration="1" hotspotX="0.504762" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_defeated0005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_defeated0006.png" />
+                    <frame duration="1" hotspotX="0.504762" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_defeated0007.png" />
+                    <frame duration="1" hotspotX="0.504762" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_defeated0008.png" />
+                    <frame duration="1" hotspotX="0.504762" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_defeated0009.png" />
+                    <frame duration="1" hotspotX="0.504762" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\BroStock_Arnie\PNG_Exports1x_and_2x\BroStock_Leather_Arnie\bro2_defeated0010.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="8647624866814499">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Troll1" sid="5558811322509389">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="move" sid="5333679694243513" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="6180769527953108">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="1359303076892876">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="7" loop="1" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="460342732333141" speed="5">
+                    <frame duration="1" hotspotX="0.500608" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\RUN\RUN_000.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\RUN\RUN_001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\RUN\RUN_002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\RUN\RUN_003.png" />
+                    <frame duration="1" hotspotX="0.500956" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\RUN\RUN_004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\RUN\RUN_005.png" />
+                    <frame duration="1" hotspotX="0.500682" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\RUN\RUN_006.png" />
+                </animation>
+                <animation framecount="7" loop="1" name="Attak" pingpong="0" repeatcount="1" repeatto="0" sid="7750449525126196" speed="7">
+                    <frame duration="1" hotspotX="0.500694" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\ATTAK\ATTAK_000.png" />
+                    <frame duration="1" hotspotX="0.500728" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\ATTAK\ATTAK_001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\ATTAK\ATTAK_002.png" />
+                    <frame duration="1" hotspotX="0.500739" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\ATTAK\ATTAK_003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\ATTAK\ATTAK_004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\ATTAK\ATTAK_005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\ATTAK\ATTAK_006.png" />
+                </animation>
+                <animation framecount="7" loop="0" name="Dead" pingpong="0" repeatcount="1" repeatto="0" sid="5144925265428258" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\DIE\DIE_000.png" />
+                    <frame duration="1" hotspotX="0.500623" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\DIE\DIE_001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\DIE\DIE_002.png" />
+                    <frame duration="1" hotspotX="0.500577" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\DIE\DIE_003.png" />
+                    <frame duration="1" hotspotX="0.500639" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\DIE\DIE_004.png" />
+                    <frame duration="1" hotspotX="0.500639" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\DIE\DIE_005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\1_TROLL\DIE\DIE_006.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Troll2" sid="9322098957017228">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="move" sid="8732985738497039" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="4556420540626574">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="9470366641039688">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="7" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="9611926358439216" speed="5">
+                    <frame duration="1" hotspotX="0.50077" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\IDLE\IDLE_000.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\IDLE\IDLE_001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\IDLE\IDLE_002.png" />
+                    <frame duration="1" hotspotX="0.500711" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\IDLE\IDLE_003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\IDLE\IDLE_004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\IDLE\IDLE_005.png" />
+                    <frame duration="1" hotspotX="0.500747" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\IDLE\IDLE_006.png" />
+                </animation>
+                <animation framecount="7" loop="1" name="Attak" pingpong="0" repeatcount="1" repeatto="0" sid="4973715963438127" speed="10">
+                    <frame duration="1" hotspotX="0.500655" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\ATTAK\ATTAK_000.png" />
+                    <frame duration="1" hotspotX="0.500699" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\ATTAK\ATTAK_001.png" />
+                    <frame duration="1" hotspotX="0.500743" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\ATTAK\ATTAK_002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\ATTAK\ATTAK_003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\ATTAK\ATTAK_004.png" />
+                    <frame duration="1" hotspotX="0.500678" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\ATTAK\ATTAK_005.png" />
+                    <frame duration="1" hotspotX="0.500639" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\ATTAK\ATTAK_006.png" />
+                </animation>
+                <animation framecount="7" loop="0" name="Dead" pingpong="0" repeatcount="1" repeatto="0" sid="5013840732359406" speed="5">
+                    <frame duration="1" hotspotX="0.50077" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\DIE\DIE_000.png" />
+                    <frame duration="1" hotspotX="0.500627" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\DIE\DIE_001.png" />
+                    <frame duration="1" hotspotX="0.500556" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\DIE\DIE_002.png" />
+                    <frame duration="1" hotspotX="0.500562" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\DIE\DIE_003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\DIE\DIE_004.png" />
+                    <frame duration="1" hotspotX="0.500453" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\DIE\DIE_005.png" />
+                    <frame duration="1" hotspotX="0.500453" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\2_TROLL\DIE\DIE_006.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Troll3" sid="4038770653078575">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="move" sid="2529724855677179" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="1200749643425238">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="8546370985312994">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="7" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="2812865827125942" speed="5">
+                    <frame duration="1" hotspotX="0.500726" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\IDLE\IDLE_000.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\IDLE\IDLE_001.png" />
+                    <frame duration="1" hotspotX="0.500695" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\IDLE\IDLE_002.png" />
+                    <frame duration="1" hotspotX="0.500682" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\IDLE\IDLE_003.png" />
+                    <frame duration="1" hotspotX="0.500682" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\IDLE\IDLE_004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\IDLE\IDLE_005.png" />
+                    <frame duration="1" hotspotX="0.500709" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\IDLE\IDLE_006.png" />
+                </animation>
+                <animation framecount="7" loop="1" name="Attak" pingpong="0" repeatcount="1" repeatto="0" sid="2108601691607776" speed="18">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\ATTAK\ATTAK_000.png" />
+                    <frame duration="1" hotspotX="0.500677" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\ATTAK\ATTAK_001.png" />
+                    <frame duration="1" hotspotX="0.50069" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\ATTAK\ATTAK_002.png" />
+                    <frame duration="1" hotspotX="0.500684" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\ATTAK\ATTAK_003.png" />
+                    <frame duration="1" hotspotX="0.500669" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\ATTAK\ATTAK_004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\ATTAK\ATTAK_005.png" />
+                    <frame duration="1" hotspotX="0.500675" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\ATTAK\ATTAK_006.png" />
+                </animation>
+                <animation framecount="7" loop="0" name="Dead" pingpong="0" repeatcount="1" repeatto="0" sid="4375949688695713" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\DIE\DIE_000.png" />
+                    <frame duration="1" hotspotX="0.500612" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\DIE\DIE_001.png" />
+                    <frame duration="1" hotspotX="0.500582" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\DIE\DIE_002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\DIE\DIE_003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\DIE\DIE_004.png" />
+                    <frame duration="1" hotspotX="0.500675" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\DIE\DIE_005.png" />
+                    <frame duration="1" hotspotX="0.500682" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\3 Feos-1\_PNG\3_TROLL\DIE\DIE_006.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont" sid="7784953473957944">
+            <plugin id="Spritefont2" />
+            <instance-variables>
+                <instance-variable name="type" sid="6451758295120578" type="string" />
+            </instance-variables>
+            <texture />
+        </object-type>
+        <object-type name="Heart" sid="276742061057344">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="6883192734164313" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503497" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\0bjetos4\Bonus\Bonus_2_3.png">
+                        <collision-poly>
+                            <point x="0.10625" y="0.118881" />
+                            <point x="0.5" y="0.146853" />
+                            <point x="0.89375" y="0.118881" />
+                            <point x="0.975" y="0.496504" />
+                            <point x="0.79375" y="0.769231" />
+                            <point x="0.5" y="1" />
+                            <point x="0.20625" y="0.769231" />
+                            <point x="0.03125" y="0.496504" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="1783891458155977">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="3332142019685061" speed="5">
+                    <frame duration="1" hotspotX="0.502857" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\0bjetos4\Bonus\Bonus_4_3.png">
+                        <collision-poly>
+                            <point x="0.171429" y="0.178571" />
+                            <point x="0.497143" y="0.0654762" />
+                            <point x="0.942857" y="0.0595238" />
+                            <point x="0.908571" y="0.5" />
+                            <point x="0.765714" y="0.755952" />
+                            <point x="0.497143" y="0.97619" />
+                            <point x="0.188571" y="0.803571" />
+                            <point x="0.00571429" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="2155168081448275">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="16865254994715">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="2820725480257143">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="290013700500267" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Abstract Platformer\PNG\extra\bonus.png">
+                        <collision-poly>
+                            <point x="0.192308" y="0.263158" />
+                            <point x="0.5" y="0.184211" />
+                            <point x="0.903846" y="0.131579" />
+                            <point x="0.942308" y="0.5" />
+                            <point x="0.942308" y="0.921053" />
+                            <point x="0.5" y="0.921053" />
+                            <point x="0.173077" y="0.763158" />
+                            <point x="0.0384615" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="4920571882861947">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="8407219851494062" speed="5">
+                    <frame duration="1" hotspotX="0.500829" hotspotY="0.501171" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\Window.png">
+                        <collision-poly>
+                            <point x="0.0132231" y="0.018648" />
+                            <point x="0.499174" y="0.004662" />
+                            <point x="0.983471" y="0.02331" />
+                            <point x="0.978512" y="0.969697" />
+                            <point x="0.0181818" y="0.974359" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="4084764169511458">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="6382141089403766" speed="0">
+                    <frame duration="1" hotspotX="0.501089" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\complete.png" />
+                    <frame duration="1" hotspotX="0.501089" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gameover.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Restart" sid="1351227694950931">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="3448756545755981" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button\Button_74.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button\Button_77.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="4097862161162598">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="TiledBackground3" sid="3815828805563572">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite8" sid="3267817429698294">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="2731209249362032" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Abstract Platformer\PNG\Other\doorGreen_top.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Abstract Platformer\PNG\Other\doorOpen_top.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="6496515006366623">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="8066683071732695" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Abstract Platformer\PNG\Other\doorGreen_lock.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Abstract Platformer\PNG\Other\doorOpen.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="5263458053303188">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="5917814112619949" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Abstract Platformer\PNG\extra\key.png">
+                        <collision-poly>
+                            <point x="0.311111" y="0.311111" />
+                            <point x="0.488889" y="0.0666667" />
+                            <point x="0.866667" y="0.133333" />
+                            <point x="0.933333" y="0.488889" />
+                            <point x="0.711111" y="0.711111" />
+                            <point x="0.488889" y="0.733333" />
+                            <point x="0.0666667" y="0.933333" />
+                            <point x="0.311111" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="6849381640443197">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="3292644130635478" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Control\flatDark\flatDark23.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="4910870422957486">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="4237535048866106" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Control\flatDark\flatDark24.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="2939811585136582">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="6998328241193844" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\Control\flatDark\flatDark25.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="2158292555601553">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\_PNG\2\background.png" />
+        </object-type>
+        <object-type name="TiledBackground4" sid="9943075368963643">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\_PNG\2\background.png" />
+        </object-type>
+        <object-type name="TiledBackground5" sid="8871923998132736">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\_PNG\4\background.png" />
+        </object-type>
+        <object-type name="TiledBackground6" sid="7852737152486229">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\_PNG\4\background.png" />
+        </object-type>
+        <object-type name="TiledBackground7" sid="3651428072626177">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\_PNG\4\background.png" />
+        </object-type>
+        <object-type name="NextLevel" sid="4738326869629296">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="488397625155227" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button\Button_46.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button\Button_49.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground8" sid="2838342524122215">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\_PNG\4\background.png" />
+        </object-type>
+        <object-type name="Audio" sid="5236585815656488">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Function" sid="3114609854532223">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="btnMusic" sid="9123039764560863">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="7281548439014844" speed="0">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button 2\Button_09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button 2\Button_12.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnSound" sid="2019568511160979">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="635358083313489" speed="0">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button 2\Button_13.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button 2\Button_16.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Gallery_BroStock_Sly" sid="7237856168200161">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="40206856617728" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\0trebla\Desktop\juego_all\Gallery_BroStock_Sly0001.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnPlay" sid="5523567602264961">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="3911478160755301" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button\Play2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button\Play1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="3920192736414273">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="6535672767078498" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\level select\Window_03.png">
+                        <collision-poly>
+                            <point x="0.0948276" y="0.11828" />
+                            <point x="0.5" y="0" />
+                            <point x="0.905172" y="0.11828" />
+                            <point x="0.989943" y="0.5" />
+                            <point x="0.979885" y="0.97491" />
+                            <point x="0.0158046" y="0.980287" />
+                            <point x="0.00143678" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="1086962388049939">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="304592459304369" speed="5">
+                    <frame duration="1" hotspotX="0.504951" hotspotY="0.511628" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\level select\l.png">
+                        <collision-poly>
+                            <point x="0.00990099" y="0.0232558" />
+                            <point x="0.49505" y="0.418605" />
+                            <point x="0.970297" y="0.0697674" />
+                            <point x="0.980198" y="0.488372" />
+                            <point x="0.960396" y="0.906977" />
+                            <point x="0.49505" y="0.976744" />
+                            <point x="0.029703" y="0.930233" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14" sid="6793564541423721">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="1150785550061036" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\level select\l2.png">
+                        <collision-poly>
+                            <point x="0.0588235" y="0.186047" />
+                            <point x="0.5" y="0.162791" />
+                            <point x="0.919118" y="0.255814" />
+                            <point x="0.963235" y="0.488372" />
+                            <point x="0.970588" y="0.906977" />
+                            <point x="0.0294118" y="0.906977" />
+                            <point x="0.0294118" y="0.488372" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonLevel" sid="110542805691961">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="lev" sid="8480848449981048" type="number" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="5145051353152464" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503497" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\level select\Button_01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503497" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\level select\Button_05.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont2" sid="1929140411609478">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite15" sid="5379035633554754">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="2367585222743071" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button\Button_53.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\Platformer\GUI\gui\button\Button_50.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground9" sid="4350359582406172">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\_PNG\2\background.png" />
+        </object-type>
+        <object-type name="TiledBackground10" sid="4873963676101444">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\_PNG\4\background.png" />
+        </object-type>
+        <object-type name="WebStorage" sid="7445967920803601">
+            <plugin id="WebStorage" />
+        </object-type>
+        <object-type name="Sprite16" sid="6290743578269573">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="2055961553942954" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\WorldWarMech_Lava_Station\PNG_Exports_1x_2x_3x\tile_rock_tint3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="4973562383306459">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="2308525361780808">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="471875902739548" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\WorldWarMech_Lava_Station\PNG_Exports_1x_2x_3x\tile_rock_tint3.png">
+                        <collision-poly>
+                            <point x="0.046875" y="0.046875" />
+                            <point x="0.5" y="0.03125" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.953125" y="0.953125" />
+                            <point x="0.046875" y="0.953125" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite18" sid="1243945681497635">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3135180191716912">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="4180030165069615" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\WorldWarMech_Lava_Station\PNG_Exports_1x_2x_3x\tile_rock_tint2.png">
+                        <collision-poly>
+                            <point x="0.0454545" y="0.0454545" />
+                            <point x="0.5" y="0.030303" />
+                            <point x="0.924242" y="0.0757576" />
+                            <point x="0.954545" y="0.5" />
+                            <point x="0.924242" y="0.924242" />
+                            <point x="0.0606061" y="0.939394" />
+                            <point x="0.0151515" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite19" sid="6347095743494332">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="2940924428760317">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="4286023869873973" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\WorldWarMech_Lava_Station\PNG_Exports_1x_2x_3x\tile_rock_tint3.png">
+                        <collision-poly>
+                            <point x="0.046875" y="0.046875" />
+                            <point x="0.5" y="0.03125" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.953125" y="0.953125" />
+                            <point x="0.046875" y="0.953125" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite20" sid="8832284692411122">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3770377080731613">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="2918841861698232">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Defecto" pingpong="0" repeatcount="1" repeatto="0" sid="9670653342330946" speed="5">
+                    <frame duration="1" hotspotX="0.501577" hotspotY="0.501629" original-source="C:\Users\0trebla\Desktop\juego_all\Nueva carpeta\GameArtPartners_Freebies\Massive_Weapons\PNG\uranium.png">
+                        <collision-poly>
+                            <point x="0.255521" y="0.263844" />
+                            <point x="0.498423" y="0.140065" />
+                            <point x="0.769716" y="0.237785" />
+                            <point x="0.895899" y="0.498371" />
+                            <point x="0.794953" y="0.788274" />
+                            <point x="0.498423" y="0.86645" />
+                            <point x="0.236593" y="0.7557" />
+                            <point x="0.126183" y="0.498371" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="Control" plugin-id="Sprite" sid="6379950867294282">
+            <members>
+                <member>Sprite10</member>
+                <member>Sprite11</member>
+                <member>Sprite12</member>
+            </members>
+        </family>
+        <family name="Button" plugin-id="Sprite" sid="5868461023133671">
+            <members>
+                <member>btnMusic</member>
+                <member>btnPlay</member>
+                <member>btnSound</member>
+                <member>ButtonLevel</member>
+                <member>NextLevel</member>
+                <member>Restart</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder expanded="1">
+        <layout-folder expanded="1" name="level">
+            <layout>1.xml</layout>
+            <layout>2.xml</layout>
+            <layout>3.xml</layout>
+        </layout-folder>
+        <layout>Menu.xml</layout>
+        <layout>SelectLevel.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>eGame.xml</event-sheet>
+        <event-sheet>eMenu.xml</event-sheet>
+        <event-sheet>eLevel.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="3" />
+        <global-instance type="Touch" uid="18">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="97">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+                <speed-of-sound>5000</speed-of-sound>
+                <doppler-factor>1</doppler-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Function" uid="98" />
+        <global-instance type="WebStorage" uid="33" />
+    </global-instances>
+    <sounds-folder expanded="1">
+        <file name="Collect Gem.m4a" />
+        <file name="Collect Gem.ogg" />
+        <file name="Collect Key.m4a" />
+        <file name="Collect Key.ogg" />
+        <file name="EnemyHit.m4a" />
+        <file name="EnemyHit.ogg" />
+        <file name="Hit.m4a" />
+        <file name="Hit.ogg" />
+        <file name="Jingle Lose.m4a" />
+        <file name="Jingle Lose.ogg" />
+        <file name="Jingle Win.m4a" />
+        <file name="Jingle Win.ogg" />
+        <file name="click.m4a" />
+        <file name="click.ogg" />
+    </sounds-folder>
+    <music-folder expanded="1">
+        <file name="MattOglseby - 1.m4a" />
+        <file name="MattOglseby - 1.ogg" />
+    </music-folder>
+    <files-folder expanded="1">
+        <file-folder expanded="0" name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
